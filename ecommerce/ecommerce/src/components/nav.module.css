@@ -1,0 +1,33 @@
+.nav {
+  overflow: hidden;
+  background-color: #29bb89;
+  cursor: pointer;
+}
+
+.nav div {
+  float: left;
+  display: block;
+  padding: 16px 20px;
+}
+
+.nav div.right {
+  float: right;
+}
+
+.nav div:hover {
+  background-color: white;
+  color: #29bb89;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.link:hover {
+  background-color: white;
+  color: #29bb89;
+}
